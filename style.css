@@ -21,6 +21,31 @@ body {
 
 .card {
   background-color: rgba(0, 0, 0, 0.1);
+  justify-content: center;
+}
+
+.card--image {
+  
+}
+.d-flex-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.d-flex-main {
+  display: flex;
+}
+
+.d-flex-footer {
+  display: flex;
+
+}
+.left {
+  justify-content: flex-start;
+}
+
+.right {
+  justify-content: flex-end;
 }
 
 @media (max-width: 600px) {
@@ -28,3 +53,4 @@ body {
     display: none;
   }
 }
+
