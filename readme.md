@@ -80,3 +80,14 @@ Styr sedan hur elementen placeras. Ett tips är att försöka göra så att kort
 
 https://m3.material.io/components/cards/overview
 https://devdevout.com/css/css-cards
+
+## Nav
+
+Om du provar att göra flera sidor så kan du även testa att göra en navigationsmeny. Använd flexbox för att placera elementen i en rad.
+
+Använd nav elementet och ersätt header. Använd listor för att skapa länkar.
+Formatera sedan detta med flexbox.
+
+## Hosting
+
+När du är klar med övningen så kan du publicera den på GitHub Pages. Se till att pages är aktiverat på ditt repo och att du har en index.html fil i rotmappen.
