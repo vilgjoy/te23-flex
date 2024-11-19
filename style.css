@@ -9,6 +9,20 @@ body {
   line-height: 1.5;
 }
 
+main {
+  display: flex;
+  justify-content: space-around;
+  gap: 0.5rem;
+
+}
+
+img{
+  margin-top: 1rem;
+}
+
+.heading--image {
+  margin-right: 2rem;
+}
 .container {
   width: min(100% - 3rem, var(--container-max, 60ch));
   margin-inline: auto;
@@ -20,13 +34,16 @@ body {
 }
 
 .card {
-  background-color: rgba(0, 0, 0, 0.1);
-  justify-content: center;
+  background-color: #c809091a;
+  max-width: 13rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
 }
 
 .card--image {
-  
+  flex-grow: 5;
 }
+
 .d-flex-header {
   display: flex;
   justify-content: space-between;
@@ -38,7 +55,8 @@ body {
 
 .d-flex-footer {
   display: flex;
-
+  justify-content: space-between;
+  
 }
 .left {
   justify-content: flex-start;
@@ -54,3 +72,8 @@ body {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .d-flex {
+    flex-direction: column;
+  }
+}
